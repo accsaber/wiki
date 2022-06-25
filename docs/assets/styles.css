@@ -1,9 +1,23 @@
+.md-grid {
+  max-width: 1024px;
+}
+
+body[data-md-color-scheme="slate"] {
+  --md-default-bg-color: rgb(23 23 23);
+  --md-footer-bg-color: rgb(38 38 38);
+  --md-footer-bg-color--dark: rgba(0, 0, 0, 0.32);
+}
+
 .md-header {
   background-image: linear-gradient(
     to left,
     rgb(37, 99, 235),
     rgb(147, 51, 234)
   );
+}
+
+.md-header__source {
+  width: max-content;
 }
 
 [dir="ltr"] .md-header__title {
@@ -18,6 +32,15 @@
   margin: 0;
   padding: 0;
   margin-left: -0.5rem;
+}
+
+@media (max-width: 500px) {
+  .md-header__navigation {
+    display: none;
+  }
+  .md-header__title::before {
+    content: "ACC Wiki";
+  }
 }
 
 .md-header__inner {
@@ -62,6 +85,11 @@
 .md-tabs__link--active {
   background-color: #0000000d;
 }
+
+[data-md-color-scheme="slate"] .md-tabs__link--active {
+  background: #0003;
+}
+
 .md-tabs__item {
   margin: 0;
   padding: 0;

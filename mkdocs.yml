@@ -9,9 +9,11 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
+    - toc.integrate
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+
       toggle:
         icon: material/brightness-7
 
@@ -19,6 +21,8 @@ theme:
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: blue
+      accent: blue
       toggle:
         icon: material/brightness-2
         name: Switch to light mode
