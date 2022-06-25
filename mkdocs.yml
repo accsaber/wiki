@@ -37,6 +37,4 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-revision-date-localized:
-      enable_creation_date: true
-  - git-authors
+  - git-revision-date-localized
