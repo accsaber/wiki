@@ -57,15 +57,6 @@ body[data-md-color-scheme="slate"] {
   margin-left: -0.75rem;
 }
 
-@media (max-width: 500px) {
-  .md-header__navigation {
-    display: none;
-  }
-  .md-header__title::before {
-    content: "ACC Wiki";
-  }
-}
-
 .md-header__inner {
   height: 64px;
 }
@@ -122,7 +113,6 @@ body[data-md-color-scheme="slate"] {
 
 .headerNav {
   align-items: center;
-  gap: 0.5rem;
   border-radius: 0.25rem;
   padding: 0.5rem 1rem;
   margin: 0;
@@ -133,7 +123,7 @@ body[data-md-color-scheme="slate"] {
   font-weight: normal;
   display: flex;
   font-size: 16px;
-  gap: 8px 8px;
+  gap: 0.25em;
   height: 40px;
   padding: 8px 16px;
   place-items: center normal;
@@ -143,4 +133,19 @@ body[data-md-color-scheme="slate"] {
 .headerNav.active,
 .headerNav:hover {
   background-color: #0000001a;
+}
+
+@media (max-width: 500px) {
+  .headerNav:not(.active) {
+    display: none;
+  }
+  .headerNav.active {
+    background-color: transparent;
+  }
+  .headerNav.active::before {
+    content: url(/assets/logo.webp);
+    width: 2em;
+    height: 2em;
+    display: flex;
+  }
 }
