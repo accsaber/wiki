@@ -3,7 +3,7 @@ theme:
   name: material
   logo: assets/logo.webp
   palette:
-    - scheme: orange
+    - scheme: default
       toggle:
         icon: material/brightness-7
 
@@ -13,3 +13,12 @@ theme:
       toggle:
         icon: material/brightness-2
         name: Switch to light mode
+
+repo_url: https://github.com/accsaber/wiki
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/accchampcommunity
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ACC_Champ
