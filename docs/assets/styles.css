@@ -24,6 +24,29 @@ body[data-md-color-scheme="slate"] {
   margin-left: 0.5rem;
 }
 
+.md-header .md-header__button.md-logo :is(img, svg) {
+  height: 32px;
+}
+
+.md-search__form {
+  background: #0000001a;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.md-search__icon[for="__search"] {
+  position: relative;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+[dir="ltr"] .md-search__input {
+  padding-left: 1rem;
+}
+
 .md-header__navigation {
   display: flex;
   gap: 8px;
@@ -31,7 +54,7 @@ body[data-md-color-scheme="slate"] {
   align-items: center;
   margin: 0;
   padding: 0;
-  margin-left: -0.5rem;
+  margin-left: -0.75rem;
 }
 
 @media (max-width: 500px) {

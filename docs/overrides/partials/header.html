@@ -106,9 +106,7 @@ class ~ " md-header--lifted" %} {% endif %}
     <label class="md-header__button md-icon" for="__search">
       {% include ".icons/material/magnify.svg" %}
     </label>
-    {% include "partials/search.html" %} {% endif %} {% if config.repo_url %}
-    <div class="md-header__source">{% include "partials/source.html" %}</div>
-    {% endif %}
+    {% include "partials/search.html" %} {% endif %}
   </nav>
   {% if "navigation.tabs.sticky" in features %} {% if "navigation.tabs" in
   features %} {% include "partials/tabs.html" %} {% endif %} {% endif %}
