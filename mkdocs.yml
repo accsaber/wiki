@@ -3,6 +3,7 @@ theme:
   name: material
   favicon: assets/acc.png
   logo: assets/acc.png
+  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
   features:
