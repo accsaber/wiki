@@ -3,7 +3,6 @@ theme:
   name: material
   favicon: assets/acc.png
   logo: assets/acc.png
-  custom_dir: docs/overrides
   icon:
     repo: fontawesome/brands/github
   features:
@@ -32,6 +31,9 @@ extra:
       link: https://discord.gg/accchampcommunity
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ACC_Champ
+
+extra_css:
+  - assets/styles.css
 
 markdown_extensions:
   - meta
