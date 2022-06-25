@@ -1,1 +1,3 @@
 site_name: ACC Wiki
+theme:
+  name: material

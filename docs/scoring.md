@@ -1,5 +1,5 @@
 ---
-title: Scoring | ACC Wiki
+title: Scoring
 ---
 
 # Scoring
