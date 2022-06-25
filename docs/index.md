@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+  - toc
+---
 # Home
 
 Welcome to the ACC wiki! Here you'll find various information about Beat Saber (not strictly limited to accuracy).
