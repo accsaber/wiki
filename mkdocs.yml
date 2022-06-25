@@ -1,12 +1,14 @@
 site_name: ACC Wiki
 theme:
   name: material
-  logo: assets/logo.webp
+  favicon: assets/acc.png
+  logo: assets/acc.png
   custom_dir: docs/overrides
   icon:
     repo: fontawesome/brands/github
   features:
     - navigation.tabs
+    - navigation.instant
   palette:
     - scheme: default
       toggle:
