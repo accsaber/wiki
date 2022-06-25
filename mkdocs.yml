@@ -2,6 +2,7 @@ site_name: ACC Wiki
 theme:
   name: material
   logo: assets/logo.webp
+  custom_dir: docs/overrides
   features:
     - navigation.tabs
   palette:
@@ -27,3 +28,9 @@ extra:
 
 markdown_extensions:
   - meta
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-authors:
+      show_contribution: true
