@@ -57,3 +57,4 @@ Version | Supported | Reason
 1.22.0 | Yes
 1.22.1 | Yes
 1.23.0 | Yes
+1.24.0 | Yes
