@@ -8,7 +8,7 @@ For player height and configs in accuracy maps, typically you want to increase y
 
 If you aren’t using a hit score visualizer, please download one. They are extremely useful in recognizing which patterns you need help working on and also noticing any habits you may have regarding under-swinging.
 
-[Download the mod here.](https://github.com/ErisApps/HitScoreVisualizer/releases/tag/3.3.3)</br>
+[Download the mod here.](https://github.com/ErisApps/HitScoreVisualizer/releases/)</br>
 Find configs in the [ACC Discord server.](https://discord.gg/zd8W4rr)
 
 ## Custom Notes
